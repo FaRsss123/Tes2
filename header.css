@@ -1,0 +1,179 @@
+.header {
+    background-color: #2547b4;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  
+  /* Untuk layar kecil (ponsel) */
+@media (max-width: 430px) {
+   
+    .header .container {
+      color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .header .logo {
+        font-family: 'Times New Roman', Times, serif;
+        color: #eeeeee;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: start;
+      }
+    .header .nav {
+    display: flex;
+    gap: 10px;
+  }
+  .header .nav a {
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .header .nav a:hover{
+    color: #7e7e7e;
+  }
+
+  .header .nav a  {
+    color: #000000;
+    padding: 2px 1px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .header .icons {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+  }
+  .header .icons i {
+    color: #fff;
+    cursor: pointer;
+    font-size: 9px;
+  }
+  .header .icons {
+    display: flex;
+    gap: 20px;
+  }
+  .header .icons l {
+    cursor: pointer;
+    font-size: 9px;
+    color: #f0f0f0;
+  }
+  .header .icons i:hover {
+    color: #7e7e7e;
+  }
+
+}
+
+
+/* Untuk layar menengah (tablet) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .header .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    .header .nav {
+    display: flex;
+    gap: 20px;
+  }
+  .header .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  .header .nav a.active {
+    color: #e74c3c;
+  }
+  .header .nav a .badge {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .header .icons {
+    display: flex;
+    gap: 20px;
+  }
+  .header .icons i {
+    font-size: 18px;
+    color: #333;
+    }
+}
+
+/* Untuk layar besar (desktop) */
+@media (min-width: 1025px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .header .logo {
+        font-family: 'Times New Roman', Times, serif;
+        color: #e4e4e4;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: -5rem;
+      }
+    .header .nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header .nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    font-weight: 500;
+  }
+  .header .nav a:hover{
+    color: #7e7e7e;
+  }
+
+  
+  .header .nav a .badge {
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .header .icons {
+    display: flex;
+    gap: 40px;
+    margin-right: -8rem;
+  }
+  .header .icons i {
+    font-size: 18px;
+    color: #f5f5f5;
+    }
+    .header .icons {
+        display: flex;
+        gap: 25px;
+      }
+      .header .icons l {
+        display: none;
+        cursor: pointer;
+        font-size: 9px;
+        color: #f1f1f1;
+      }
+    .header .icons i:hover {
+        color: #7e7e7e;
+      }
+    
+}
